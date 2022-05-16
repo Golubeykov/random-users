@@ -15,7 +15,13 @@ struct UsersView: View {
             List {
                 ForEach(userData.users) {
                     user in
-                    Text(user.fullName)
+                    HStack {
+                        AsyncImage(url: URL(string: user.picture.thumbnail), content: {image in image.clipShape(Circle())}, placeholder: {
+                            Image(systemName: "person")
+                                .frame(width: 50, height: 50, alignment: .center)
+                        })
+                        Text(user.fullName)
+                    }
                 }
             }
             .navigationTitle("Random Users")
