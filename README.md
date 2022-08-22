@@ -8,4 +8,4 @@ https://randomuser.me/documentation
 3) Unit Testing через XCTest
 
 
-<img width="242" alt="Снимок экрана 2022-05-15 в 23 31 45" src="https://user-images.githubusercontent.com/47087482/168492678-7af99361-9315-4360-b758-1952b6baa324.png">
+<img width="200" alt="Снимок экрана 2022-05-15 в 23 31 45" src="https://user-images.githubusercontent.com/47087482/168492678-7af99361-9315-4360-b758-1952b6baa324.png">
